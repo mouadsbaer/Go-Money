@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoMoney</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <script src="main.js"></script>
+</head>
+<body class="bd flex bg-[rgb(34,38,42)] justify-center items-center w-screen text-red-200 overflow-hidden">
+    
+    <div class="bg-[rgb(0,120,239)] w-[380px] rotate-[-35deg] h-[1000px] absolute top-[-80px] left-20 opacity-20 z-[-1]"></div>
+    <div class="bg-[rgb(0,120,239)] w-[190px] rotate-[-35deg] h-[1000px] absolute top-[-150px] left-300 opacity-20 z-[-1]"></div>
+    <div class=" bg-[rgb(34,38,42)] w-screen mx-[60px] my-[35px] rounded-[30px] pb-[0px] shadow-[3px_4px_7px_3px_#0E81D9]" style="height: 91vh;" >
+        <header class="contenair flex justify-between mx-10">
+            <div class="flex justify-center items-center gap-2">
+                <img src="../imgs/img_logo.png" alt="image logo" class="w-[100px]">
+                <h1 class="font-bold text-[4vmin] text-gray-100 "><span class="text-blue-600">Go</span>Money</h1>
+            </div>
+          
+            <ul class="flex justify-between items-center">
+            <li><a href="index.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">Acceuil</a></li>
+                <li><a href="about.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">About</a></li>
+                <li><a href="plans.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">Plans</a></li>
+                <li><a href="prix.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">Prix</a></li>
+                <li><a href="contact.html" class="mx-[10px] px-7 py-[12px] text-gray-100 font-bold bg-[#004880] transition ease duration-500 rounded-[8px]">Contact</a></li>
+            </ul>
+        </header>
+        <main class="flex justify-between items-center px-20 py-10 ">
+            <div class="text-center text-gray-100">
+                <h1 class="mb-[60px] text-[#0E81D9] text-[4vmin] font-bold w-[420px]">À votre écoute pour toute information</h1>
+                <div>
+                    <h2 class="mb-[10px] text-[3vmin] font-bold">ADRESSE</h2>
+                    <p class="mb-[30px]">Lorem ipsum dolor sit amet, You code , NADOR</p>
+                </div>
+                <div>
+                    <h2 class="mb-[10px] text-[3vmin] font-bold">TELEPHONE</h2>
+                    <p class="mb-[30px]">+2120701253645</p>
+                </div>
+                <div>
+                    <h2 class="mb-[10px] text-[3vmin] font-bold">EMAIL</h2>
+                    <p>Gomoney@gmail.com</p>
+                </div>
+            </div>
+            
+            <form action="#" class="w-[50%] bg-transparent border-2 border-[#0E81D9] rounded-[15px] form" >
+                <h2 class="text-3xl text-gray-100 text-center py-[30px] text-[5vmin] font-bold">Contact</h2>
+                <div class="py-[10px] px-10 flex items-center gap-[50px] relative">
+                    <label for="nom_c" class="w-[150px] text-[2.4vmin] text-gray-400 absolute ml-[200px] w-[100%]">Objet</label>
+                    <input type="text" name="nom_complet" id="nom_c" class="w-[100%] py-[8px] bg-transparent border-b-2 border-[#0E81D9] pb-[10px] text-gray-100" style="outline: none;">
+                </div>
+                <div class="py-[10px] px-10 flex justify-center items-center gap-[50p] relative">
+                    <label for="email" class="w-[150px] text-[2.4vmin] text-gray-400 absolute">Email</label>
+                    <input type="email" name="email" id="email" class="w-[100%] py-[8px] bg-transparent border-b-2 border-[#0E81D9] pb-[10px] text-gray-100" style="outline: none;">
+                </div>
+                <div class="py-[10px] px-10 flex justify-center items-center gap-[50px] relative">
+                    <label for="sujet" class="w-[150px] text-[2.4vmin] text-gray-400 absolute ">Objet</label>
+                    <input type="text" name="sujet" id="sujet" class="w-[100%] py-[8px] bg-transparent border-b-2 border-[#0E81D9] pb-[10px] text-gray-100" style="outline: none;">
+                </div>
+                <div class="py-[10px] px-10 flex justify-center items-center gap-[50px] relative">
+                    <label for="msg" class="w-[150px] text-[2.4vmin] text-gray-400 absolute  ">Message</label>
+                    <input type="text" name="msg" id="msg" class="w-[100%] py-[8px] bg-transparent border-b-2 border-[#0E81D9] pb-[10px] text-gray-100" style="outline: none;">
+                </div>
+                <div>
+                    <button class="text-gray-100 text-center shadow-[3px_4px_7px_3px_#0E81D9] px-[50px] py-[12px] rounded-[10px] ml-[35%] mb-10 mt-[25px] bg-[#004880] hover:bg-">Envoyer Message</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

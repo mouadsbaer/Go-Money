@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoMoney</title>
+    <link rel="stylesheet" href="/src/output.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body class="bd flex bg-[rgb(34,38,42)] justify-center items-center w-screen text-gray-100 overflow-x-hidden">
+    <div class="bg-[rgb(0,120,239)] w-[380px] rotate-[-35deg] h-[1000px] absolute top-[-80px] left-20 opacity-20 z-[-1]"></div>
+    <div class="bg-[rgb(0,120,239)] w-[190px] rotate-[-35deg] h-[1000px] absolute top-[-150px] left-300 opacity-20 z-[-1]"></div>
+    <div class="  bg-[rgb(34,38,42)] w-screen mx-[60px] my-[35px] rounded-[30px] pb-[0px] shadow-[3px_4px_7px_3px_#0E81D9]">
+        <header class="contenair flex justify-between mx-10">
+            <div class="flex justify-center items-center gap-2">
+                <img src="../imgs/img_logo.png" alt="image logo" class="w-[100px]">
+                <h1 class="font-bold text-[4vmin] text-gray-100 "><span class="text-blue-600">Go</span>Money</h1>
+            </div>
+            <ul class="flex justify-between items-center">
+            <li><a href="index.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">Acceuil</a></li>
+                <li><a href="about.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px] ">About</a></li>
+                <li><a href="plans.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">Plans</a></li>
+                <li><a href="prix.html" class="mx-[10px] px-7 py-[14px] text-gray-400 font-bold hover:border-b-2 hover:border-[#004880] transition ease duration-500 hover:text-gray-100 rounded-[8px]">Prix</a></li>
+                <li><a href="contact.html" class="mx-[10px] px-7 py-[12px] text-gray-100 font-bold bg-[#004880] transition ease duration-500 rounded-[8px]">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="flex justify-start gap-[100px] items-center mt-40 px-[150px]">
+                <div class="flex justify-between items-center ">
+                    <img src="../imgs/carte.png" alt="" class="w-[180px] rotate-[40deg]">
+                    <img src="../imgs/carte2.png" alt="" class="w-[130px] rotate-[40deg] absolute left-44">
+                </div>
+                <div>
+                    <h2 class=" font-bold text-blue-600 text-center">Votre vision, notre expertise</h2>
+                    <h1 class=" text-3xl text-[4.6vmin] font-bold text-center text-[4vmin] my-[5px]">Transformons vos ambitions en réalité</h1>
+                    <h3 class=" text-center font-bold text-blue-600 text-[2.4vmin] ">Experts en analyse de prêts et projets, nous délivrons des conclusions précises</h3>
+                </div>
+            </div>
+            <div class=" flex justify-end items-center gap-[100px]">
+                <div class="">
+                    <img src="../imgs/phone.png" alt="" class=" rotate-[50deg]" style="width: 50%;">
+                </div>
+                <a href="prix.html" class="text-center px-[35px] py-[15px] bg-[#004880] mx-20 rounded-[8px] text-[2vmin] font-bold shadow-[3px_5px_22px_rgba(16,154,169,0.5)] w-[158px] transition ease duration-500 hover:bg-blue-600">Commencer</a>
+                <div class="relative">
+                    <img src="../imgs/hand2.png" alt="" class="w-[420px] rotate-[50deg]">
+                </div>
+            </div>
+        </main>
+        <section>
+            <form action="#">
+                <select name="type_de_pret" id="type" class=" text-[2.4vmin] bg-transparent border-2 border-[#004880] px-[120px] py-[10px] mx-40 my-10 mt-20 rounded-[10px] font-bold" required>
+                <option value="all" class="bg-[#004880]">Type de prét</option>
+                <option value="Maison" class="bg-[#004880]"> Maison</option>
+                <option value="Appartement" class="bg-[#004880] ">Appartement</option>
+                <option value="Terrain" class="bg-[#004880]">Terrain</option>
+                <option value="Petite_entreprise" class="bg-[#004880]">Petite entreprise</option>
+                <option value="personnel" class="bg-[#004880]">Prét personnel</option> 
+            </select>
+            </form>
+            <div class="flex justify-between items-center bg-[#004880] bg-opacity-30 m-20 pl-20 rounded-[15px] mx-40 gap-100 py-10">
+                <div>
+                    <h2 class="text-3xl font-bold mb-[25px] w-[400px]">PRÊT MAISON</h2>
+                    <ul>
+                        <li> - Taux : 4% annuel</li>
+                        <li> - Taux avantageux (apport > 20%) : 3,0% à 3,8%</li>
+                        <li> - Prêt social : 3%</li>
+                        <li> - Durée : 15 à 25 ans</li>
+                    </ul>
+                </div>
+                <div class="w-[100]%">
+                    <img src="../imgs/maison.png" alt="" class="w-[55%] ml-[300px]">
+                </div>
+            </div>
+            <div class="flex justify-between items-center bg-[#004880] bg-opacity-30 m-20 pl-20 rounded-[15px] mx-40 gap-100 py-10">
+                <div>
+                    <h2 class="text-3xl font-bold mb-[25px] w-[400px]">PRÊT APPARTEMENT</h2>
+                    <ul>
+                        <li> - Taux : 4,5% annuel</li>
+                        <li> - Taux avantageux (apport > 15%) : 4,0% à 4,3%</li>
+                        <li> - Prêt accession sociale : 3,5%</li>
+                        <li> - Durée : 15 à 25 ans</li>
+                    </ul>
+                </div>
+                <div class="w-[100]%">
+                    <img src="../imgs/appartement.png" alt="" class="w-[80%] mr-[100px]">
+                </div>
+            </div>
+            <div class="flex justify-between items-center bg-[#004880] bg-opacity-30 m-20 pl-20 rounded-[15px] mx-40 gap-100 py-10">
+                <div>
+                    <h2 class="text-3xl font-bold mb-[25px] w-[400px]">PRÊT PETITE ENTREPRISE</h2>
+                    <ul>
+                        <li> - Taux : 6,0% annuel</li>
+                        <li> - Taux avantageux (secteur prioritaire) : 5,5% à 5,8%</li>
+                        <li> - Prêt social : 2.5%</li>
+                        <li> - Durée : 15 à 10 ans</li>
+                    </ul>
+                </div>
+                <div class="w-[100]%">
+                    <img src="../imgs/entreprise.png" alt="" class="w-[50%] ml-[300px]">
+                </div>
+            </div>
+            <div class="flex justify-between items-center bg-[#004880] bg-opacity-30 m-20 pl-20 rounded-[15px] mx-40 gap-100 py-10">
+                <div>
+                    <h2 class="text-3xl font-bold mb-[25px] w-[400px]">PRÊT TERRAIN</h2>
+                    <ul>
+                        <li> - Taux : 5% annuel</li>
+                        <li> - Taux avantageux (projets agricoles) : 4,5% à 4,8%</li>
+                        <li> - Prêt social : 3%</li>
+                        <li> - Durée : 10 à 25 ans</li>
+                    </ul>
+                </div>
+                <div class="w-[100]%">
+                    <img src="../imgs/terrain.png" alt="" class="w-[40%] ml-[350px]">
+                </div>
+            </div>
+            <div class="flex justify-between items-center bg-[#004880] bg-opacity-30 m-20 pl-20 rounded-[15px] mx-40 gap-100 py-10">
+                <div>
+                    <h2 class="text-3xl font-bold mb-[25px] w-[400px]">PRÊT PERSONNEL (CASH)</h2>
+                    <ul>
+                        <li> - Taux : 8% annuel</li>
+                        <li> - Taux avantageux (client fidèle) : 7,0% à 7,5%</li>
+                        <li> - Prêt social : 9.5%</li>
+                        <li> - Durée : 1 à 7 ans</li>
+                    </ul>
+                </div>
+                <div class="w-[100]%">
+                    <img src="../imgs/personnel.png" alt="" class="w-[40%] ml-[350px]">
+                </div>
+            </div>
+
+        </section>
+        <section class="relative">
+            <h2 class="font-bold text-[4.3vmin] m-20 mt-40">Déposer une Demande</h2>
+            <form>
+                <div class="m-20 flex gap-20 items-center relative">
+                    <label for="montant">Le montant du prêt souhaité</label>
+                    <input type="text" class="bg-transparent border-2 border-[#004880] px-40 py-[11px] rounded-[14px]" id="m_s">
+                    <p class="absolute right-[490px] font-bold">DH</p>
+                </div>
+                <div class="m-20 flex gap-20 items-center relative">
+                    <label for="montant">La durée du remboursement</label>
+                    <input type="text" class="bg-transparent border-2 border-[#004880] px-40 py-[11px] rounded-[14px]" id="d_r">
+                    <select class="absolute right-[490px] w-[80px] bg-transparent outline-none" id="t_d_r">
+                        <option value="mois" class="bg-[#004880]">Mois</option>
+                        <option value="Années" class="bg-[#004880]">Années</option>
+                    </select>
+                </div>
+                
+                <div class="m-20 mb-10 flex gap-20 items-center ">
+                    <label for="montant">Salaire mensuel</label>
+                    <input type="text" class="bg-transparent border-2 border-[#004880] px-40 py-[11px] ml-[88px] rounded-[14px]" id="s_m">
+                </div>
+                <div class="flex justify-center items-center gap-20 mb-20">
+                        <button type="button" class="py-[15px] px-[20px] bg-[#004880] rounded-[8px] mt-10" id="btncontinuer">Continuer</button>
+                        <button type="reset " class="py-[15px] px-[25px] bg-transparent border-2 border-[#004880] rounded-[8px] mt-10 cancel">Cancel</button>
+                </div>
+                <div id="message_erreur" class="flex mx-20 py-20 bg-[#004880] px-40" style="display: none; position: absolute; top: 70px; background-color: rgb(221, 54, 54); width: 780px;text-align: center;">
+                    <p class="font-bold">veuillez vérifier les champs!! ils sont obligatoires</p>
+                </div>
+                </form>
+                       <div class="w-[80%] tableaux" id="resultatDiv" style="display: none; margin-top: 80px;">
+                        <table class="border border-[#004880] w-[100%] mx-40 text-[2.5vmin] rounded-[50px]">
+                        <thead>
+                            <tr class="w-[80%] ">
+                            <th class="py-[15px] bg-[#004880] bg-opacity-30">Type Du Prét</th>
+                            <td class="text-center border border-[#004880]" id="type_pret_d"></td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="w-[80%] ">
+                                <th class="py-[15px]  bg-[#004880]">Le Montant Demandé</th>
+                            <td class="text-center border border-[#004880]" id="montant_s_d"></td>
+                        </tr>
+                        <tr class="">
+                            <th class="py-[15px]  bg-[#004880] bg-opacity-30">Le Taux Appliqué</th>
+                            <td class="text-center border border-[#004880]" id="taux_appliquer"></td>
+                        </tr>
+                        <tr class="w-[80%] ">
+                            <th class="py-[15px]  bg-[#004880]">La Mensualité</th>
+                            <td class="text-center border border-[#004880]" id="mensualite"></td>
+                        </tr>
+                        <tr class="w-[80%] ">
+                            <th class="py-[15px]  bg-[#004880] bg-opacity-30">Le Total des Intérêts</th>
+                            <td class="text-center border border-[#004880]" id="total_d"></td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr >
+                            <th class="py-[15px] bg-[#004880] text-black-500">Le Montant T à Rembourser</th>
+                            <td class="text-center" id="m_a_r"></td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                    <div class="flex justify-center items-center gap-20">
+                        <button type="submit" class="py-[15px] px-[20px] bg-[#004880] rounded-[8px] mt-10" id="confirmer">Confirmer</button>
+                        <button type="resst " class="py-[15px] px-[25px] bg-transparent border-2 border-[#004880] rounded-[8px] mt-10 cancel">Cancel</button>
+                    </div>
+                    </div>
+         <div class="block" id="next" style="display: none;">
+                   <div class="border-2 border-[#004880] mx-60 rounded-[10px] w-[51%] px-40">
+                    <div class="flex justify-between items-center mt-20 mb-[30px] ">
+                        <h2 class="text-[3vmin] font-bold px-[10px]">Nom Complet </h2>
+                        <input class="w-80 py-[20px] bg-transparent border border-green-900 border-[#004880] rounded-[10px]" ></input>
+                    </div>
+                    <div class="flex justify-between items-center mb-[30px]">
+                        <h2 class="text-[3vmin] font-bold">CIN </h2>
+                        <input class="w-80 py-[20px] bg-transparent border border-green-900 border-[#004880] rounded-[10px]"></input>
+                    </div>
+                    <div class="flex justify-between items-center mb-[30px]">
+                        <h2 class="text-[3vmin] font-bold">Téléphone</h2>
+                        <input class="w-80 py-[20px] bg-transparent border border-green-900 border-[#004880] rounded-[10px]"></input>
+                    </div>
+                    <div class="flex justify-between items-center mb-[30px]">
+                        <h2 class="text-[3vmin] font-bold">Debit Card </h2>
+                        <input class="w-80 py-[20px] bg-transparent border border-green-900 border-[#004880] rounded-[10px]"></input>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-20 mb-20">
+                        <button type="button" class="py-[15px] px-[20px] bg-[#004880] rounded-[8px] mt-10" id="btncontinuer">Continuer</button>
+                        <button type="reset " class="py-[15px] px-[25px] bg-transparent border-2 border-[#004880] rounded-[8px] mt-10">Cancel</button>
+                </div>
+         </div>
+            
+     
+        </section>
+                    <footer class="bg-[#004880] bg-opacity-90 px-20 py-4 rounded-b-[20px] mt-40"> 
+            <h1 class="text-[4.5vmin] font-bold text-center">GoMoney</h1>
+            <ul class="flex justify-center gap-20 pt-[10px] text-[2.2vmin]">
+                <li><a href="index.html" class="transition ease duration-500 hover:border-gray-100 hover:border-b-2 hover:font-bold">Acceuil</a></li>
+                <li><a href="about.html" class="transition ease duration-500 hover:border-gray-100 hover:border-b-2 hover:font-bold">About</a></li>
+                <li><a href="plans.html" class="transition ease duration-500 hover:border-gray-100 hover:border-b-2 hover:font-bold">Plans</a></li>
+                <li><a href="prix.html" class="transition ease duration-500 hover:border-gray-100 hover:border-b-2 hover:font-bold">Prix</a></li>
+                <li><a href="contact.html" class="transition ease duration-500 hover:border-gray-100 hover:border-b-2 hover:font-bold">Contact</a></li>
+            </ul>
+            <div> 
+                <ul class="flex justify-center gap-5 mt-10">
+                    <li><i class='bx bxl-facebook-circle bx-tada bx-rotate-90 text-3xl' ></i></li>
+                    <li><i class='bx bxl-linkedin-square bx-tada bx-rotate-90 text-3xl' ></i></li>
+                    <li><i class='bx bxl-youtube bx-tada bx-rotate-90 text-3xl' ></i></li>
+                    <li><i class='bx bxl-google bx-tada bx-rotate-90 text-3xl' ></i></li>
+                    <li><i class='bx bxl-instagram-alt bx-tada bx-rotate-90 text-3xl' ></i></li>
+                    <li><a href="#" class="text-[2.5vmin] ml-10 bg-transparent border rounded-[8px] px-6 py-3 transition ease duration-500 hover:bg-gray-100 hover:text-[#004880]"> Francais</a></li>
+                </ul>
+            </div>
+            <p class="text-center mt-10 font-bold">CopyRight c GoMoney-2025</p>
+        </footer>
+        </div>
+            <script src="main.js"></script>
+</body>
+</html>

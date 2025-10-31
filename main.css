@@ -1,0 +1,81 @@
+
+.cercle_lumiere{
+    animation-name: mouad;
+    animation-duration: 2.5s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+@keyframes mouad{
+    0%{
+        opacity: 0.3;
+        
+    }
+    25%{
+        opacity: 0.7;
+        rotate: 60deg;
+    }
+    50%{
+        opacity: 1;
+        rotate: 120deg;
+    }
+    75%{
+        opacity: 1;
+        rotate: 180deg;
+    }
+    100%{
+        opacity: 0;
+        rotate: 360deg;
+    }
+}
+.img1{
+    animation-name: mouad1;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    margin-right: 100px;
+    opacity: 0;
+    animation-timing-function: cubic-bezier(.15,.48,.58,.85);
+
+}
+@keyframes mouad1{
+        0%{
+        opacity: 0.5;
+        
+    }
+    25%{
+        opacity: 0.7;
+        margin-right: 0;
+        
+    }
+    50%{
+        opacity: 1;
+        margin-right: -100px;
+    }
+    75%{
+        opacity: 1;
+       margin-right: -500px;
+    }
+    100%{
+        opacity: 1;
+        margin-right: -700px;
+    }
+}
+#hand_img{
+    animation: hand_animation 2s ease-in-out infinite;
+}
+
+@keyframes hand_animation{
+    0%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
